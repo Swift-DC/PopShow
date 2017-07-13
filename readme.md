@@ -91,8 +91,8 @@
 ##关于作者
 
 ```javascript
-  var ihubo = {
+  var info = {
     nickName  : "swift_dc",
-    site : "http://swift_dc.jhjlwang.com"
+    site : "http://www.jhjlwang.com"
   }
 ```
