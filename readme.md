@@ -86,8 +86,7 @@
 ##感激
 感谢以下的项目,排名不分先后
 
-* [antui](http://mouapp.com/)
-* [jquery](http://jquery.com)
+* [AntUI](https://antui.alipay.com/10.0.18/index.html)
 
 ##关于作者
 
