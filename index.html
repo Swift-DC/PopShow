@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+  <META NAME="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH, INITIAL-SCALE=1, SHRINK-TO-FIT=NO" />
+	<link rel="stylesheet" href="css/antui@px.css" />
+</head>
+<body>
+	<div id="test" style="color: red; height: 200px;width: 100%;background: green;font-size: 26px">
+	<div id="test2">123</div>
+  Hello,Word!
+</div>
+<script type="text/javascript" src="script/popShow@px.min.js"></script>
+<script type="text/javascript">
+  Pop.Show("123456");
+  //Pop.Show({icon:1,content:"测试123",time:60});
+// Pop.Dialog({title:"hello",content:"欢迎",but:"ok",input:true,placeholder:"这里是暗提示"},function(e){
+//	   if(e.ok){
+//			Pop.Show("你点击成功！你在输入了："+e.input);
+//		}
+// });
+//Pop.Loading({type:2,content:"网络错误请刷新"},function(){
+//		Pop.Show({icon:3,content:"页面加载完成"});
+//});
+Pop.Iframe({title:"iframe窗口",url:"http://www.jhjlwang.com"},function(){
+		Pop.Show("你点击了返回");
+});
+</script>
+</body>
+</html>
